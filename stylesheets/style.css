@@ -1,1 +1,7 @@
-*{border:1px solid red ;}
+/* *{border:1px solid red ;} */
+
+
+
+body{
+    background-image: url("http://virginia-cv.infinityfreeapp.com/assets/images/myInfo.webp");
+}
