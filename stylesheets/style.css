@@ -1,7 +1,43 @@
-/* *{border:1px solid red ;} */
+body {
+  background-image: url("https://genarogg.github.io/crud-virginia/img/myInfo.webp");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
+.container.rounded {
+  width: 500px;
+}
 
+.container.container-datos.mt-4.shadow-lg.p-3.mb-5.bg-body.rounded {
+  width: 90%;
+  max-width: 1256px;
+  background-color: transparent !important;
+  border: none;
+  backdrop-filter: none;
+  box-shadow: none !important;
+}
 
-body{
-    background-image: url("https://genarogg.github.io/crud-virginia/img/myInfo.webp");
+.container-datos {
+  --bs-table-bg: #21252900 !important;
+}
+
+h1.text-primary {
+  color: #fff !important;
+}
+
+.bg-body {
+  background-color: rgba(256, 256, 256, 0.1) !important;
+  border: 1px solid #fff;
+  backdrop-filter: blur(10px);
+}
+
+input {
+  background-color: transparent !important;
+}
+
+.btn.btn-primary:hover {
+  cursor: pointer;
 }
