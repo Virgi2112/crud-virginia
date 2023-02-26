@@ -41,3 +41,37 @@ input {
 .btn.btn-primary:hover {
   cursor: pointer;
 }
+
+label {
+  color: #fff;
+}
+
+.table > :not(caption) > * > * {
+  background-color: rgba(256, 256, 256, 0.1);
+  backdrop-filter: blur(5px);
+  box-shadow: none;
+  border: none;
+}
+
+.btn-danger {
+  background-color: rgba(165, 40, 52, 0.1);
+}
+
+.btn-primary {
+  background-color: rgba(10, 83, 190, 0.1);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: transparent !important;
+  backdrop-filter: blur(5px);
+  border: none;
+}
+
+.table-group-divider {
+  border: none;
+}
+
+table {
+  box-shadow: none;
+  --bs-table-border-color: none;
+}
